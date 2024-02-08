@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let Physics = parseInt(prompt("mark of physics = "));
+        console.log("physics = ",Physics);
+
+        let Chemistry = parseInt(prompt("mark of chemistry = "));
+        console.log("Chemistry = ",Chemistry);
+
+        let Biology = parseInt(prompt("mark of biology = "));
+        console.log("Biology = ",Biology);
+
+        let Mathematics = parseInt(prompt("mark of mathematics = "));
+        console.log("Mathematics = ",Mathematics);
+
+        let Computer = parseInt(prompt("mark of computer = "));
+        console.log("Computer = ",Computer);
+
+        let sum = Physics + Chemistry + Biology + Mathematics + Computer;
+
+        let per = sum/5;
+        
+        console.log("Percentage = ",per);
+
+        if(per >= 90)
+        {
+            console.log("Grade = A");
+        } 
+        else if(per >= 80)
+        {
+            console.log("Grade = B");
+        }
+        else if(per >= 70)    
+        {
+            console.log("Grade = C");
+        }
+        else if(per >= 60)
+        {
+            console.log("Grade = D");
+        }
+        else if(per >= 50)
+        {
+            console.log("Grade = E");
+        }
+        else if(per >= 40)
+        {
+            console.log("Grade = F");
+        }
+
+    </script>
+
+</body>
+</html>
